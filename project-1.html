@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANIL DEVELOPERS</title>
+</head>
+<style>
+    body{
+        
+        background-image: url("img/img2.jpg");
+        background-repeat: no-repeat;
+        background-attachment:scroll;
+        background-size:cover;
+        
+    }
+    .left{
+        display: inline-block;
+         border: 0px solid red;
+         position: absolute;
+         left: 34px;
+         top: 20px; 
+    }
+    .left img{
+        width: 135px;
+    }
+    .left div{
+        text-align: center;
+        color: whitesmoke;
+        font-family:fantasy;
+        font-size: 20px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        border: 0px solid green;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color:black;
+        text-decoration: none;
+        padding: 34px 23px ;
+    }
+    .navbar li a:hover, .navbar li a.active {
+        
+        color:grey;
+       
+    }
+    .right{
+          position: absolute;
+          right: 34px;
+          top: 20px;
+          display: inline-block;
+          border: 2px solid yellows;
+    }
+    .btn{
+        padding: 7px 18px;
+        border: 2px grey;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:gainsboro;
+    }
+   .hanil{
+    border: 0px solid white;
+    margin: -96px 192px;
+    padding: 180px 280px;
+    width: 33%;
+    border-radius: 30px;
+    }
+   .custom{
+    border: 2px grey;
+    width:50%;
+    height: 50px;
+    border-radius: 30px;
+    margin: 172px -37px;
+    text-align:center;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+   }
+   .existing{
+    border: 2px  white;
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    margin: -223px 208px;
+    text-align:center;
+    font-size: 20px;
+   }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+          <img src="img/logo.PNG" alt="">
+          <div>HANIL Developers</div>
+        </div>
+        <div class="mid">
+           <ul class="navbar">
+               <li><a href="project-1.html" class="active">Home</a> </li>
+               <li> <a href="aboutus.html">About us</a> </li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="contactus.html">Contact us</a></li>
+           </ul>
+        </div>
+        <div class="right">
+              <button class="btn"> sign in</button>
+        </div>
+    </header>
+    <div class="hanil">
+    <h1>HANIL DEVELOPERS</h1>
+    <H2>We help you to digitalize</H2>
+    <div class="custom">Custom order</div>
+    <div class="existing">Existing inventory</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our blogs</title>
+</head>
+<style>
+ body
+  {
+    background-image: url("img/img4.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+  }
+
+
+  .left{
+        display: inline-block;
+         border: 0px solid red;
+         position: absolute;
+         left: 34px;
+         top: 20px; 
+    }
+    .left img{
+        width: 135px;
+    }
+    .left div{
+        text-align: center;
+        color: whitesmoke;
+        font-family:fantasy;
+        font-size: 20px;
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+        border: 0px solid green;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color:black;
+        text-decoration: none;
+        padding: 34px 23px ;
+    }
+    .navbar li a:hover, .navbar li a.active {
+        
+        color:grey;
+       
+    }
+    .right{
+          position: absolute;
+          right: 34px;
+          top: 20px;
+          display: inline-block;
+          border: 2px solid yellows;
+    }
+    .btn{
+        padding: 7px 18px;
+        border: 2px grey;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:gainsboro;
+    }
+</style>
+    <body>
+        <header class="header">
+            <div class="left">
+              <img src="img/logo.PNG" alt="">
+              <div>HANIL Developers</div>
+            </div>
+            <div class="mid">
+               <ul class="navbar">
+                   <li><a href="project-1.html" >Home</a> </li>
+                   <li> <a href="aboutus.html" >About us</a> </li>
+                   <li><a href="blog.html"class="active">Blog</a></li>
+                   <li><a href="contactus.html">Contact us</a></li>
+               </ul>
+            </div>
+            <div class="right">
+                <button class="btn"> sign in</button>
+</body>
+</html>
